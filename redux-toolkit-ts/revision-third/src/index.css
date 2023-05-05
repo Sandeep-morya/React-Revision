@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.todo-app {
+	font-family: Arial, sans-serif;
+	max-width: 500px;
+	margin: 2rem auto;
+}
+
+.todo-item {
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.todo-item input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+.todo-item span {
+	flex-grow: 1;
+}
+
+.todo-item button {
+	margin-left: 10px;
+	background-color: #ff4136;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.todo-item button:hover {
+	background-color: #d90000;
+}
+.todo-input {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.react-loader {
+	display: grid;
+	place-items: center;
+}
+input[type="text"] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-right: 10px;
+	font-size: 16px;
+	flex: 1;
+}
+
+button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 50px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0062cc;
+}
